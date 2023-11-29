@@ -120,7 +120,7 @@ nav a:hover::after{
     background-image: url(https://images.unsplash.com/photo-1535930749574-1399327ce78f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTB8fHBldHN8ZW58MHx8MHx8fDA%3D);
 }
 
-#portfolio{
+.portfolio{
     width: 100%;
     padding:5% 5% 0 5%;
     color: rgb(42, 42, 42);
@@ -128,14 +128,14 @@ nav a:hover::after{
     font-family: 'M PLUS Code Latin', monospace;
 }
 
-#portfolio h1,#about h1,#services h1{
+.portfolio h1,#about h1,#services h1{
     font-size: 3vw;
     text-transform: uppercase;
     font-weight: 400;
    line-height: 3vw;
 }
 
-#portfolio p{
+.portfolio p{
     color: #0BBAB4;
     font-size: 1.7vw;
     text-transform: capitalize;
@@ -384,12 +384,12 @@ footer i:hover{
         height: 120vw;
     }
 
-    #portfolio h1,#about h1,#services h1{
+    .portfolio h1,#about h1,#services h1{
         font-size: 5vw;
         line-height: 5vw;
     }
 
-    #portfolio p{
+    .portfolio p{
         font-size: 3vw;
     }
 
